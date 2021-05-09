@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'my-app',
+  template: `<app-employee-list></app-employee-list>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular2Demo';
+  pageHeader: string = 'Employee Details';
+ // imagePath: string = 'https://image.shutterstock.com/image-photo/corporate-data-management-system-dms-260nw-304480604.jpg'
 }
